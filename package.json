@@ -1,0 +1,36 @@
+{
+  "name": "blog-chef",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config ./bin",
+    "dev": "nodemon -r dotenv/config ./bin"
+  },
+  "engines": {
+    "node": ">=12.18.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "bcrypt": "^4.0.1",
+    "compression": "^1.7.4",
+    "connect-redis": "^4.0.4",
+    "csurf": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.5.0",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "memorystore": "^1.6.2",
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "pug": "^2.0.4",
+    "redis": "^3.0.2"
+  }
+}
